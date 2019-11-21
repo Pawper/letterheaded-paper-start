@@ -39,3 +39,19 @@ h1 {
 }
 
 /* Your CSS below here */
+
+body {
+  background: #fff;
+  background-image: url(top-image.png);
+  background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0) 20%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.35)), url(top-image.png), url(bottom-image.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: top, top, bottom;
+  border-top: 1mm solid red;
+  border-bottom: 1mm solid red;
+}
+
+h1 {
+  background-image: url(logo.png);
+  /* box-shadow: 5px 5px 5px black; */
+  filter: drop-shadow(5px 5px 3px black);
+}
